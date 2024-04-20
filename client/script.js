@@ -85,7 +85,7 @@ req2.addEventListener('click', async () => {
 			price
 		}
 		console.log(product)
-		let info = await postData('http://localhost:3002/addUser', product)
+		let info = await postData('http://localhost:3002/addUsers', product)
 		console.log(info)
 	} catch (err) {
 		console.error('Произошла ошибка при добавлении нового пользователя', err)
